@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="connection.url">jdbc:mysql://118.89.166.159:3306/probe</property>
+        <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="current_session_context_class">thread</property>
+        <!--<propehourname="packagesToScan" >entity</property>-->
+        <property name="hbm2ddl.auto">update</property>
+        <mapping class="com.codingfairy.data.entity.UserEntity"/>
+        <mapping class="com.codingfairy.data.entity.ActivenessEntity"/>
+        <mapping class="com.codingfairy.data.entity.FlowEntity"/>
+        <mapping class="com.codingfairy.data.entity.NewOldEntity"/>
+        <mapping class="com.codingfairy.data.entity.StoreHoursEntity"/>
+        <mapping class="com.codingfairy.data.entity.VisitCircleEntity"/>
+        <mapping class="com.codingfairy.data.entity.ProbeEntity"/>
+    </session-factory>
+</hibernate-configuration>

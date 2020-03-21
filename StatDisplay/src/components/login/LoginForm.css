@@ -1,0 +1,26 @@
+.login-form {
+  width: 400px;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.alert[data-visible='true'] {
+  display: block;
+}
+.alert[data-visible='false'] {
+  display: none;
+}
+.title {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5%;
+}
+.login-inline-form {
+  height: 100%;
+}
+.login-form-forget {
+  float: right;
+}
+.login-form-button {
+  width: 100%;
+}
