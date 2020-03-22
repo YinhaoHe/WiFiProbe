@@ -4,7 +4,7 @@
 
 ### Break the loop of the MapReduce to measure time.
 ### Adjust the random variable from Uniform distribution to Poisson distribution in order to generate more realistic data.
-### Used Raspiberry Pi4 to ack as WiFiProbe and provided an input data example.
+### Used Raspberry Pi4 to ack as WiFiProbe and provided an input data example.
 
 ## 2. Architecture
 ![framework2](./pics/framework2.png)
