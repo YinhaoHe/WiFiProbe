@@ -1,4 +1,4 @@
-# WIFIProbe Based on original code from https://github.com/cuiods/WIFIProbe
+# WiFiProbe Based on original code from https://github.com/cuiods/WIFIProbe
 
 ## 1. Introduction
 
