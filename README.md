@@ -1,6 +1,4 @@
-# WIFIProbe https://github.com/cuiods/WIFIProbe
-[查看演示文档](./present.md)<br/>
-项目文档位于./doc文件夹下，项目展示参考4.Get Started
+# WIFIProbe Based on original code from https://github.com/cuiods/WIFIProbe
 
 ## 1. Introduction
 
